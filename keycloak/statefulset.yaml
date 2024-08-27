@@ -7,7 +7,7 @@ spec:
     matchLabels:
       app: keycloak
   serviceName: keycloak
-  replicas: 2 # by default is 1
+  replicas: 2
   template:
     metadata:
       labels:
